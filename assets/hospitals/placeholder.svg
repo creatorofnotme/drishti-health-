@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe7cf"/><stop offset=".55" stop-color="#ffd2c0"/><stop offset="1" stop-color="#cfe4ff"/></linearGradient>
+<radialGradient id="g"><stop offset="0" stop-color="#ffd27a" stop-opacity=".9"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient></defs>
+<rect width="640" height="360" fill="url(#s)"/>
+<circle cx="470" cy="150" r="90" fill="url(#g)"/><circle cx="470" cy="150" r="34" fill="#ffb23d"/>
+<path d="M0 240L70 190 130 224 210 160 290 222 370 180 450 228 530 176 600 214 640 196V360H0z" fill="#b9c8ea" opacity=".7"/>
+<path d="M0 262C110 236 220 264 340 250S560 236 640 262V360H0z" fill="#9ed6a8"/>
+<path d="M0 298C140 274 270 304 400 288S580 280 640 294V360H0z" fill="#6fbf86"/>
+<g transform="translate(250 290)"><ellipse cx="0" cy="3" rx="92" ry="7" fill="#000" opacity=".12"/><rect x="-70" y="-88" width="140" height="88" rx="4" fill="#fff8ee"/><path d="M-80-88H80L66-110H-66z" fill="#e8573f"/><path d="M-80-88H80L77-93H-77z" fill="#c9402f"/>
+<rect x="-56" y="-70" width="26" height="22" rx="3" fill="#9fd0f2"/><rect x="30" y="-70" width="26" height="22" rx="3" fill="#9fd0f2"/><rect x="-56" y="-36" width="26" height="20" rx="3" fill="#9fd0f2"/><rect x="30" y="-36" width="26" height="20" rx="3" fill="#9fd0f2"/><rect x="-14" y="-42" width="28" height="42" rx="3" fill="#c9402f"/>
+<rect x="-62" y="-136" width="124" height="26" rx="8" fill="#1f4fd1"/><text x="0" y="-118" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="14" fill="#fff" letter-spacing="1">HEALTH CENTRE</text></g>
+<rect x="245" y="132" width="10" height="26" rx="2" fill="#e5384c"/><rect x="237" y="140" width="26" height="10" rx="2" fill="#e5384c"/>
+<text x="320" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="15" fill="#1f2f6f" opacity=".75">Photo coming soon</text>
+</svg>
