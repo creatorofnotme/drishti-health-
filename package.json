@@ -1,0 +1,15 @@
+{
+  "name": "drishti-health",
+  "version": "1.0.0",
+  "description": "DRISHTI: Digital Regional Infrastructure and Health Surveillance Tracking Initiative. Dashboard that surfaces operational gaps in PHCs and CHCs (simulated data).",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test",
+    "check": "node scripts/check-syntax.js",
+    "verify": "npm run check && npm test",
+    "build:data": "node tools/build_data.js"
+  }
+}

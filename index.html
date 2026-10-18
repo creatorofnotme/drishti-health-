@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="DRISHTI surfaces operational gaps in Primary and Community Health Centres: medicine stock-outs, beds, doctor attendance, tests and equipment, with a redistribution plan. Simulated data.">
+<title>DRISHTI — Health Surveillance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Figtree:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#fff1de">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 40 40%27%3E%3Ccircle cx=%2720%27 cy=%2720%27 r=%2719%27 fill=%27%23ef4b5b%27/%3E%3Crect x=%2717%27 y=%279%27 width=%276%27 height=%2722%27 rx=%271.6%27 fill=%27%23fff%27/%3E%3Crect x=%279%27 y=%2717%27 width=%2722%27 height=%276%27 rx=%271.6%27 fill=%27%23fff%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="sky" aria-hidden="true"><i class="s1"></i><i class="s2"></i><i class="s3"></i></div>
+<header class="top">
+  <a class="brand" href="./" style="text-decoration:none" aria-label="DRISHTI home">
+   <svg class="logo" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb23d"/><stop offset="1" stop-color="#ef4b5b"/></linearGradient></defs><circle cx="20" cy="20" r="19" fill="url(#lg)"/><path d="M2 27c6-5 11-5 18 0s12 5 18 0v8a19 19 0 01-36 0z" fill="#1f36b0" opacity=".9"/><rect x="17" y="9" width="6" height="16" rx="1.6" fill="#fff"/><rect x="12" y="14" width="16" height="6" rx="1.6" fill="#fff"/></svg>
+   <span class="wm">DRISHTI</span><span class="tg">Health</span></a>
+  <label class="search" for="q"><span data-i="search"></span><input id="q" type="search" placeholder="Search centres, districts, states" aria-label="Search centres, districts, states" autocomplete="off" maxlength="80" spellcheck="false"></label>
+  <select id="lang" aria-label="Language"></select>
+  <button class="ib" id="themeB" aria-label="Switch theme"></button>
+</header>
+<div class="shell">
+  <nav class="rail" aria-label="Regions" id="rail"></nav>
+  <aside class="side" aria-label="Browse">
+    <h4>Browse</h4><div id="nav"></div>
+    <h4>Data mode</h4>
+    <div class="vc"><span class="dot"></span><span><b>Simulated</b> &middot; <span id="cnt"></span><small id="prov" style="display:block;margin-top:4px"></small></span></div>
+  </aside>
+  <main class="main" id="main" tabindex="-1">
+    <section class="fullform" aria-label="Full form of DRISHTI"><b>DRISHTI</b><span>Digital Regional Infrastructure and Health Surveillance Tracking Initiative</span></section>
+    <div class="banner"><b>SIMULATED</b><span>All centres and figures are simulated sample data; no real PHC/CHC records or live feeds are connected. Forecasts are statistical estimates computed in your browser.</span></div>
+    <div class="bar" id="bar"></div>
+    <div id="view"></div>
+  </main>
+</div>
+<nav class="tabs" id="tabs" aria-label="Views"></nav>
+<dialog id="watchD" aria-labelledby="watchT"><button class="ib x" data-close aria-label="Close" data-i="x"></button><div id="watchC"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="sr" class="sr-only" role="status" aria-live="polite"></div>
+<noscript><p style="padding:16px;font:16px sans-serif">DRISHTI needs JavaScript to draw the dashboard. Please enable it and reload.</p></noscript>
+
+<script src="data/meta.js" defer></script>
+<script src="data/states.js" defer></script>
+<script src="data/i18n.js" defer></script>
+<script src="data/hospitals.js" defer></script>
+<script src="data/sample_facilities.js" defer></script>
+<script src="data/map_xy.js" defer></script>
+<script src="data/assets.js" defer></script>
+<script src="data/districts.js" defer></script>
+<script src="data/admin.js" defer></script>
+<script src="js/utils.js" defer></script>
+<script src="js/i18n.js" defer></script>
+<script src="js/store.js" defer></script>
+<script src="js/views.js" defer></script>
+<script src="js/map.js" defer></script>
+<script src="js/analytics.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
